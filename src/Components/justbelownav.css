@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.hero{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 3%;
+  }
+  .hero button{
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    border: 1px solid #bdbcb9;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 15px;
+  }
+  .hero > button:hover{
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  .vl {
+    border-left: 1px solid  black;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }

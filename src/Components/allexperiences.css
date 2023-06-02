@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.all-experiences-container{
+    width: 100%;
+    height: auto;
+}
+.all-experiences-container > h2{
+    margin-top: 5%;
+    padding: 20px;
+}
+.main-content-experiences{
+    display: flex;
+    flex-wrap: wrap; /* Added flex-wrap property to wrap cards */
+    margin-left: 20px;
+}
+.load-more{
+    margin-left: 45%;
+    margin-right: 45%;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+    cursor: pointer;
+}

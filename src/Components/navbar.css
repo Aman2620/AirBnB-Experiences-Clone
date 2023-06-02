@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #bdbcb9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  nav > img{
+    padding: 10px;
+    max-width: 100px;
+  }
+  .navbar-left-content{
+    margin-right: 5%;
+  }
+  .navbar-left-content > button{
+    margin-right: 20px;
+    padding: 10px;
+    /* border: none; */
+    cursor: pointer;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .airbnb-your-home{
+    border: none;
+    font-weight: 30;
+  }
+
+  .globe-icon {
+    font-weight: 50;
+    font-size: 1rem;
+  }
+  
+  .globe-icon-btn {
+    margin-right: 0;
+    border: none;
+  }
+  .login-btn{
+    padding: 10px;
+    border: 1px solid #b5b2b1;
+    width: 90px;
+  }
+  .login-btn:hover{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1)
+  }
